@@ -6,6 +6,7 @@ export default function ProgrammingLanguageCard({ title, experience, image }) {
       <View style={styles.card}>
          <Text style={styles.title}>{title}</Text>
          <Text style={styles.experience}>{experience}</Text>
+         <Image source={image} style={styles.image} />
       </View>
    );
 }

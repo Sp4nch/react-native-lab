@@ -9,16 +9,19 @@ export default function App() {
       id: '1',
       title: 'JavaScript',
       experience: '2 years of experience',
+      image: require('./assets/js.webp'),
     },
     {
       id: '2',
       title: 'Python',
       experience: '2 years of experience',
+      image: require('./assets/py.webp'),
     },
     {
       id: '3',
       title: 'HTML',
       experience: '1 year of experience',
+      image: require('./assets/html.webp'),
     },
   ];
 
@@ -32,6 +35,7 @@ export default function App() {
           <ProgrammingLanguageCard
             title={item.title}
             experience={item.experience}
+            image={item.image}
           />
         )}
       />
